@@ -1,0 +1,39 @@
+name: "🧪 Learning challenge"
+description: "Suggest a hands-on problem with measurable learning outcomes"
+title: "[Lab] "
+labels: []
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: "🎯 Engineering question"
+      description: "What do we want to understand or demonstrate?"
+      placeholder: "Can two requests successfully reserve the same seat?"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "🧩 Scenario & assumptions"
+      description: "What does the smallest reproducible scenario look like?"
+    validations:
+      required: true
+  - type: textarea
+    id: experiment
+    attributes:
+      label: "🧪 Proposed experiment"
+      description: "What could we build, measure, simulate, or compare?"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "✅ What counts as evidence?"
+      description: "Expected tests, measurements, or observable outcomes."
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: "📚 Resources and alternatives"
+      description: "Relevant docs, articles, or trade-offs (optional)."
