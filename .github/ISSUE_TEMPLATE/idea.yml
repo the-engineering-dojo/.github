@@ -1,0 +1,21 @@
+name: "💡 Discussion or idea"
+description: "Propose a topic, resource, or improvement"
+title: "[Idea] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "What would this help us learn?"
+      placeholder: "A clear one-paragraph explanation"
+    validations:
+      required: true
+  - type: textarea
+    id: possibilities
+    attributes:
+      label: "Options or examples"
+      description: "What approaches or examples should we explore?"
+  - type: textarea
+    id: references
+    attributes:
+      label: "Further reading"
+      description: "Relevant links, if available"
